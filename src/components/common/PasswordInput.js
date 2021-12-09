@@ -54,7 +54,7 @@ const PasswordInput = (props) => {
         </PasswordInputWrapper>
 
                 <div>
-                    {showPassword ? props.value : '' }
+                    {showPassword && props.value }
                 </div>
         
             </>
